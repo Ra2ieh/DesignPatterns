@@ -8,7 +8,7 @@ namespace Decorator;
 
 public class SpecialOffer : Decorator
 {
-    public SpecialOffer(Vehicle vehicle) : base(vehicle)
+    public SpecialOffer(IVehicle vehicle) : base(vehicle)
     {
     }
     public int DiscountPercentage { get; set; }

@@ -1,7 +1,7 @@
 ﻿
 namespace Decorator;
 
-public interface Vehicle
+public interface IVehicle
 {
     string Make { get; }
     string Model { get; }

@@ -1,7 +1,7 @@
 ﻿
 namespace Decorator
 {
-    public class HondaCity : Vehicle
+    public class HondaCity : IVehicle
     {
         public string Make {
             get

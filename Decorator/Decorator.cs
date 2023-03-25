@@ -1,10 +1,10 @@
 ﻿
 namespace Decorator;
 
-public abstract class Decorator : Vehicle
+public abstract class Decorator : IVehicle
 {
-    private Vehicle _vehicle;
-    public Decorator(Vehicle vehicle)
+    private IVehicle _vehicle;
+    public Decorator(IVehicle vehicle)
     {
         _vehicle = vehicle;
     }
